@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f8f9fa; 
+}
+
+.titulo {
+    font-size: 28px;
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #2c3e50;
+}
+
+.cartapresentacion {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.elementos {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #34495e;
+}
+
+.imagen {
+    width: 400px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(44, 62, 80, 0.5);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.carousel-indicators button {
+    background-color: #2c3e50;
+}
+
+.carousel-caption {
+    background-color: rgba(44, 62, 80, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
